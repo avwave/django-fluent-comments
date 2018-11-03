@@ -31,7 +31,7 @@ class FluentComment(BaseModel):
         verbose_name_plural = _("Comments")
         proxy = True
         managed = False
-        app_label = 'comments'
+        app_label = 'django_comments'
 
 
 def get_comments_for_model(content_object, include_moderated=False):
